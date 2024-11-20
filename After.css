@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.aa{
+	background: yellow;
+}
+.ab ul{
+	display: flex;
+	justify-content: center;
+}
+.ab ul:hover{
+	background-color: grey;
+}
+.ab ul li a{
+	color: red;
+	margin: 30px;
+	text-decoration: none;
+	transition: 1sec;
+}
+.ab ul li a:hover{
+	background: green;
+}
+.ac p{
+	color: black;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 20%;
+}
+.ac p:hover{
+	color: green;
+	background-color: red;
+}
